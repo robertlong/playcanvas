@@ -1,0 +1,23 @@
+{
+  "name": "playcanvas",
+  "version": "0.187.0-dev",
+  "description": "3D WebGL game engine with online toolset. https://playcanvas.com/",
+  "main": "./lib/playcanvas.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playcanvas/engine.git"
+  },
+  "author": "playcanvas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/playcanvas/engine/issues"
+  },
+  "homepage": "https://github.com/playcanvas/engine#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-umd": "^0.2.0"
+  },
+  "scripts": {
+    "build": "gulp umd"
+  }
+}
